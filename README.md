@@ -6,7 +6,7 @@ Reading Config file from resources.
   Reading stream from kafka using kafka info.
 
   
-Creating Streams
+Streams
   1. Created Account Stream
   2. Created Loan Streams
 

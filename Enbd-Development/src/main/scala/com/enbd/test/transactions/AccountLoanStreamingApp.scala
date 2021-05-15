@@ -19,7 +19,7 @@ import com.typesafe.config.ConfigFactory
 
 object AccountLoanStreamingApp extends App with Logging {
 
-  System.setProperty("hadoop.home.dir", "C:\\winutils");
+  
   val appName: String = "account-loan-state"
   val checkpointLocation: String = Files.createTempDirectory(appName).toString
   var query: StreamingQuery = _
