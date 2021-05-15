@@ -35,3 +35,12 @@ If the state for provided AccountType exists, then get it and update the state
 Else, just create a plain AccountLoanStatistics with corresponding id and empty details.
 Update the statistics with new data
 Return it to the stream
+
+OUTPUT
+
++-----------+----------+-------+------------+
+|AccountType|totalCount|amount |lastMinCount|
++-----------+----------+-------+------------+
+|1          |2         |20000.0|2           |
+|2          |2         |4000.0 |1           |
++-----------+----------+-------+------------+
